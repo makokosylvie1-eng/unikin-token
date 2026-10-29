@@ -1,0 +1,21 @@
+# Dépendances Node.js
+node_modules/
+
+# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Fichiers générés par Hardhat
+blockchain/artifacts/
+blockchain/cache/
+
+# Fichiers générés par Angular
+frontend/dist/
+frontend/.angular/
+
+# Dépendances Laravel
+backend/vendor/
+
+# Fichiers système
+.DS_Store
